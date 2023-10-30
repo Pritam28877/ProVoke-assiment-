@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
-import { useForm, SubmitHandler } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { useAuth } from "@/hooks/useAuth";
 import { redirect } from "next/navigation";
 import { useRouter } from "next/navigation";
